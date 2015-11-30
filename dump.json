@@ -1,0 +1,2441 @@
+[
+{
+  "fields": {
+    "model": "logentry",
+    "app_label": "admin"
+  },
+  "model": "contenttypes.contenttype",
+  "pk": 1
+},
+{
+  "fields": {
+    "model": "permission",
+    "app_label": "auth"
+  },
+  "model": "contenttypes.contenttype",
+  "pk": 2
+},
+{
+  "fields": {
+    "model": "group",
+    "app_label": "auth"
+  },
+  "model": "contenttypes.contenttype",
+  "pk": 3
+},
+{
+  "fields": {
+    "model": "contenttype",
+    "app_label": "contenttypes"
+  },
+  "model": "contenttypes.contenttype",
+  "pk": 4
+},
+{
+  "fields": {
+    "model": "session",
+    "app_label": "sessions"
+  },
+  "model": "contenttypes.contenttype",
+  "pk": 5
+},
+{
+  "fields": {
+    "model": "user",
+    "app_label": "core"
+  },
+  "model": "contenttypes.contenttype",
+  "pk": 6
+},
+{
+  "fields": {
+    "model": "supplier",
+    "app_label": "core"
+  },
+  "model": "contenttypes.contenttype",
+  "pk": 7
+},
+{
+  "fields": {
+    "model": "producttype",
+    "app_label": "core"
+  },
+  "model": "contenttypes.contenttype",
+  "pk": 8
+},
+{
+  "fields": {
+    "model": "product",
+    "app_label": "core"
+  },
+  "model": "contenttypes.contenttype",
+  "pk": 9
+},
+{
+  "fields": {
+    "model": "supplierproduct",
+    "app_label": "core"
+  },
+  "model": "contenttypes.contenttype",
+  "pk": 10
+},
+{
+  "fields": {
+    "model": "service",
+    "app_label": "core"
+  },
+  "model": "contenttypes.contenttype",
+  "pk": 11
+},
+{
+  "fields": {
+    "model": "supplierservice",
+    "app_label": "core"
+  },
+  "model": "contenttypes.contenttype",
+  "pk": 12
+},
+{
+  "fields": {
+    "model": "farmer",
+    "app_label": "core"
+  },
+  "model": "contenttypes.contenttype",
+  "pk": 13
+},
+{
+  "fields": {
+    "model": "ussdrequest",
+    "app_label": "core"
+  },
+  "model": "contenttypes.contenttype",
+  "pk": 14
+},
+{
+  "fields": {
+    "expire_date": "2015-12-08T11:32:40.350Z",
+    "session_data": "ODM1NWQ0ZmI5MmFkYjZhOTg1OTI5N2ZmYjA2OGJjOWFlNDlmYjJhYjp7Il9hdXRoX3VzZXJfaGFzaCI6Ijg1ODEzMDE0NmIyZWVhOGFjMWQxNWI1YTA1ZWRhOTRhMzM4MDk1MWMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0="
+  },
+  "model": "sessions.session",
+  "pk": "7zbcw7gy2mpg2oh6x1kkslsf4u8ezuv4"
+},
+{
+  "fields": {
+    "expire_date": "2015-11-28T12:12:12.764Z",
+    "session_data": "ODM1NWQ0ZmI5MmFkYjZhOTg1OTI5N2ZmYjA2OGJjOWFlNDlmYjJhYjp7Il9hdXRoX3VzZXJfaGFzaCI6Ijg1ODEzMDE0NmIyZWVhOGFjMWQxNWI1YTA1ZWRhOTRhMzM4MDk1MWMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0="
+  },
+  "model": "sessions.session",
+  "pk": "dw1osw3opg7mg7qhdgnmd3vbqioc73i6"
+},
+{
+  "fields": {
+    "expire_date": "2015-11-28T11:40:20.080Z",
+    "session_data": "ODM1NWQ0ZmI5MmFkYjZhOTg1OTI5N2ZmYjA2OGJjOWFlNDlmYjJhYjp7Il9hdXRoX3VzZXJfaGFzaCI6Ijg1ODEzMDE0NmIyZWVhOGFjMWQxNWI1YTA1ZWRhOTRhMzM4MDk1MWMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0="
+  },
+  "model": "sessions.session",
+  "pk": "ewrcogdfu2va9y24b0duse2hsxides4y"
+},
+{
+  "fields": {
+    "expire_date": "2015-12-13T10:24:41.441Z",
+    "session_data": "MDZkMDczNzQ0ZWYwODY5NDNhNWM5MjkzZWE2YzBlNzBiMDAyMzk1Nzp7Il9hdXRoX3VzZXJfaGFzaCI6Ijg1ODEzMDE0NmIyZWVhOGFjMWQxNWI1YTA1ZWRhOTRhMzM4MDk1MWMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyMSJ9"
+  },
+  "model": "sessions.session",
+  "pk": "psqhzckl942aeqvf69ebzv2wbkjcbby9"
+},
+{
+  "fields": {
+    "expire_date": "2015-12-06T10:32:40.127Z",
+    "session_data": "ODM1NWQ0ZmI5MmFkYjZhOTg1OTI5N2ZmYjA2OGJjOWFlNDlmYjJhYjp7Il9hdXRoX3VzZXJfaGFzaCI6Ijg1ODEzMDE0NmIyZWVhOGFjMWQxNWI1YTA1ZWRhOTRhMzM4MDk1MWMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0="
+  },
+  "model": "sessions.session",
+  "pk": "yfgcr2hjfxklxi0n95pi6d8thkmp4yuc"
+},
+{
+  "fields": {
+    "name": "Fodder"
+  },
+  "model": "core.producttype",
+  "pk": 1
+},
+{
+  "fields": {
+    "name": "Concentrates"
+  },
+  "model": "core.producttype",
+  "pk": 2
+},
+{
+  "fields": {
+    "name": "By-products"
+  },
+  "model": "core.producttype",
+  "pk": 3
+},
+{
+  "fields": {
+    "product_type": 1,
+    "name": "Lucerne",
+    "unit": 1
+  },
+  "model": "core.product",
+  "pk": 1
+},
+{
+  "fields": {
+    "product_type": 1,
+    "name": "Hay",
+    "unit": 1
+  },
+  "model": "core.product",
+  "pk": 2
+},
+{
+  "fields": {
+    "product_type": 1,
+    "name": "Desmodium",
+    "unit": 1
+  },
+  "model": "core.product",
+  "pk": 3
+},
+{
+  "fields": {
+    "product_type": 1,
+    "name": "Napier",
+    "unit": 1
+  },
+  "model": "core.product",
+  "pk": 4
+},
+{
+  "fields": {
+    "product_type": 1,
+    "name": "Stover",
+    "unit": 1
+  },
+  "model": "core.product",
+  "pk": 5
+},
+{
+  "fields": {
+    "product_type": 2,
+    "name": "Dairy Meal",
+    "unit": 1
+  },
+  "model": "core.product",
+  "pk": 6
+},
+{
+  "fields": {
+    "product_type": 2,
+    "name": "Maize Germ",
+    "unit": 1
+  },
+  "model": "core.product",
+  "pk": 7
+},
+{
+  "fields": {
+    "product_type": 2,
+    "name": "Wheat Germ",
+    "unit": 1
+  },
+  "model": "core.product",
+  "pk": 8
+},
+{
+  "fields": {
+    "product_type": 2,
+    "name": "Sunflower Seeds",
+    "unit": 1
+  },
+  "model": "core.product",
+  "pk": 9
+},
+{
+  "fields": {
+    "product_type": 2,
+    "name": "Calf Pellets",
+    "unit": 1
+  },
+  "model": "core.product",
+  "pk": 10
+},
+{
+  "fields": {
+    "product_type": 3,
+    "name": "Mollases",
+    "unit": 2
+  },
+  "model": "core.product",
+  "pk": 11
+},
+{
+  "fields": {
+    "product_type": 3,
+    "name": "Pineapple Peels",
+    "unit": 1
+  },
+  "model": "core.product",
+  "pk": 12
+},
+{
+  "fields": {
+    "product_type": 3,
+    "name": "Vegetable Rejects",
+    "unit": 1
+  },
+  "model": "core.product",
+  "pk": 13
+},
+{
+  "fields": {
+    "supplier": 9,
+    "product": 1,
+    "price_per_unit": 100.0,
+    "quantity": 100.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 1
+},
+{
+  "fields": {
+    "supplier": 9,
+    "product": 2,
+    "price_per_unit": 30.0,
+    "quantity": 500.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 2
+},
+{
+  "fields": {
+    "supplier": 9,
+    "product": 3,
+    "price_per_unit": 70.0,
+    "quantity": 80.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 3
+},
+{
+  "fields": {
+    "supplier": 10,
+    "product": 5,
+    "price_per_unit": 5.0,
+    "quantity": 700.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 4
+},
+{
+  "fields": {
+    "supplier": 11,
+    "product": 7,
+    "price_per_unit": 20.0,
+    "quantity": 500.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 5
+},
+{
+  "fields": {
+    "supplier": 11,
+    "product": 8,
+    "price_per_unit": 16.0,
+    "quantity": 500.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 6
+},
+{
+  "fields": {
+    "supplier": 11,
+    "product": 9,
+    "price_per_unit": 15.0,
+    "quantity": 400.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 7
+},
+{
+  "fields": {
+    "supplier": 11,
+    "product": 10,
+    "price_per_unit": 15.0,
+    "quantity": 400.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 8
+},
+{
+  "fields": {
+    "supplier": 12,
+    "product": 2,
+    "price_per_unit": 25.0,
+    "quantity": 1000.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 9
+},
+{
+  "fields": {
+    "supplier": 13,
+    "product": 11,
+    "price_per_unit": 10.0,
+    "quantity": 800.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 10
+},
+{
+  "fields": {
+    "supplier": 14,
+    "product": 12,
+    "price_per_unit": 8.0,
+    "quantity": 500.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 11
+},
+{
+  "fields": {
+    "supplier": 14,
+    "product": 13,
+    "price_per_unit": 10.0,
+    "quantity": 600.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 12
+},
+{
+  "fields": {
+    "supplier": 15,
+    "product": 7,
+    "price_per_unit": 60.0,
+    "quantity": 700.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 13
+},
+{
+  "fields": {
+    "supplier": 15,
+    "product": 8,
+    "price_per_unit": 80.0,
+    "quantity": 700.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 14
+},
+{
+  "fields": {
+    "supplier": 15,
+    "product": 9,
+    "price_per_unit": 80.0,
+    "quantity": 700.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 15
+},
+{
+  "fields": {
+    "supplier": 15,
+    "product": 10,
+    "price_per_unit": 55.0,
+    "quantity": 200.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 16
+},
+{
+  "fields": {
+    "supplier": 16,
+    "product": 1,
+    "price_per_unit": 30.0,
+    "quantity": 100.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 17
+},
+{
+  "fields": {
+    "supplier": 16,
+    "product": 2,
+    "price_per_unit": 15.0,
+    "quantity": 300.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 18
+},
+{
+  "fields": {
+    "supplier": 17,
+    "product": 11,
+    "price_per_unit": 20.0,
+    "quantity": 500.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 19
+},
+{
+  "fields": {
+    "supplier": 18,
+    "product": 5,
+    "price_per_unit": 10.0,
+    "quantity": 400.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 20
+},
+{
+  "fields": {
+    "supplier": 18,
+    "product": 4,
+    "price_per_unit": 30.0,
+    "quantity": 400.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 21
+},
+{
+  "fields": {
+    "supplier": 19,
+    "product": 7,
+    "price_per_unit": 50.0,
+    "quantity": 300.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 22
+},
+{
+  "fields": {
+    "supplier": 19,
+    "product": 6,
+    "price_per_unit": 50.0,
+    "quantity": 1000.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 23
+},
+{
+  "fields": {
+    "supplier": 20,
+    "product": 6,
+    "price_per_unit": 60.0,
+    "quantity": 500.0
+  },
+  "model": "core.supplierproduct",
+  "pk": 24
+},
+{
+  "fields": {
+    "name": "Veterinary Services",
+    "short_name": null
+  },
+  "model": "core.service",
+  "pk": 1
+},
+{
+  "fields": {
+    "name": "Artificial Insemination",
+    "short_name": null
+  },
+  "model": "core.service",
+  "pk": 2
+},
+{
+  "fields": {
+    "supplier": 1,
+    "service": 2
+  },
+  "model": "core.supplierservice",
+  "pk": 2
+},
+{
+  "fields": {
+    "supplier": 2,
+    "service": 1
+  },
+  "model": "core.supplierservice",
+  "pk": 3
+},
+{
+  "fields": {
+    "supplier": 3,
+    "service": 1
+  },
+  "model": "core.supplierservice",
+  "pk": 4
+},
+{
+  "fields": {
+    "supplier": 4,
+    "service": 1
+  },
+  "model": "core.supplierservice",
+  "pk": 5
+},
+{
+  "fields": {
+    "supplier": 5,
+    "service": 1
+  },
+  "model": "core.supplierservice",
+  "pk": 6
+},
+{
+  "fields": {
+    "supplier": 6,
+    "service": 2
+  },
+  "model": "core.supplierservice",
+  "pk": 7
+},
+{
+  "fields": {
+    "supplier": 8,
+    "service": 2
+  },
+  "model": "core.supplierservice",
+  "pk": 8
+},
+{
+  "fields": {
+    "supplier": 8,
+    "service": 1
+  },
+  "model": "core.supplierservice",
+  "pk": 9
+},
+{
+  "fields": {
+    "supplier": 7,
+    "service": 2
+  },
+  "model": "core.supplierservice",
+  "pk": 10
+},
+{
+  "fields": {
+    "codename": "add_logentry",
+    "name": "Can add log entry",
+    "content_type": 1
+  },
+  "model": "auth.permission",
+  "pk": 1
+},
+{
+  "fields": {
+    "codename": "change_logentry",
+    "name": "Can change log entry",
+    "content_type": 1
+  },
+  "model": "auth.permission",
+  "pk": 2
+},
+{
+  "fields": {
+    "codename": "delete_logentry",
+    "name": "Can delete log entry",
+    "content_type": 1
+  },
+  "model": "auth.permission",
+  "pk": 3
+},
+{
+  "fields": {
+    "codename": "add_permission",
+    "name": "Can add permission",
+    "content_type": 2
+  },
+  "model": "auth.permission",
+  "pk": 4
+},
+{
+  "fields": {
+    "codename": "change_permission",
+    "name": "Can change permission",
+    "content_type": 2
+  },
+  "model": "auth.permission",
+  "pk": 5
+},
+{
+  "fields": {
+    "codename": "delete_permission",
+    "name": "Can delete permission",
+    "content_type": 2
+  },
+  "model": "auth.permission",
+  "pk": 6
+},
+{
+  "fields": {
+    "codename": "add_group",
+    "name": "Can add group",
+    "content_type": 3
+  },
+  "model": "auth.permission",
+  "pk": 7
+},
+{
+  "fields": {
+    "codename": "change_group",
+    "name": "Can change group",
+    "content_type": 3
+  },
+  "model": "auth.permission",
+  "pk": 8
+},
+{
+  "fields": {
+    "codename": "delete_group",
+    "name": "Can delete group",
+    "content_type": 3
+  },
+  "model": "auth.permission",
+  "pk": 9
+},
+{
+  "fields": {
+    "codename": "add_contenttype",
+    "name": "Can add content type",
+    "content_type": 4
+  },
+  "model": "auth.permission",
+  "pk": 10
+},
+{
+  "fields": {
+    "codename": "change_contenttype",
+    "name": "Can change content type",
+    "content_type": 4
+  },
+  "model": "auth.permission",
+  "pk": 11
+},
+{
+  "fields": {
+    "codename": "delete_contenttype",
+    "name": "Can delete content type",
+    "content_type": 4
+  },
+  "model": "auth.permission",
+  "pk": 12
+},
+{
+  "fields": {
+    "codename": "add_session",
+    "name": "Can add session",
+    "content_type": 5
+  },
+  "model": "auth.permission",
+  "pk": 13
+},
+{
+  "fields": {
+    "codename": "change_session",
+    "name": "Can change session",
+    "content_type": 5
+  },
+  "model": "auth.permission",
+  "pk": 14
+},
+{
+  "fields": {
+    "codename": "delete_session",
+    "name": "Can delete session",
+    "content_type": 5
+  },
+  "model": "auth.permission",
+  "pk": 15
+},
+{
+  "fields": {
+    "codename": "add_user",
+    "name": "Can add user",
+    "content_type": 6
+  },
+  "model": "auth.permission",
+  "pk": 16
+},
+{
+  "fields": {
+    "codename": "change_user",
+    "name": "Can change user",
+    "content_type": 6
+  },
+  "model": "auth.permission",
+  "pk": 17
+},
+{
+  "fields": {
+    "codename": "delete_user",
+    "name": "Can delete user",
+    "content_type": 6
+  },
+  "model": "auth.permission",
+  "pk": 18
+},
+{
+  "fields": {
+    "codename": "add_supplier",
+    "name": "Can add supplier",
+    "content_type": 7
+  },
+  "model": "auth.permission",
+  "pk": 19
+},
+{
+  "fields": {
+    "codename": "change_supplier",
+    "name": "Can change supplier",
+    "content_type": 7
+  },
+  "model": "auth.permission",
+  "pk": 20
+},
+{
+  "fields": {
+    "codename": "delete_supplier",
+    "name": "Can delete supplier",
+    "content_type": 7
+  },
+  "model": "auth.permission",
+  "pk": 21
+},
+{
+  "fields": {
+    "codename": "add_producttype",
+    "name": "Can add product type",
+    "content_type": 8
+  },
+  "model": "auth.permission",
+  "pk": 22
+},
+{
+  "fields": {
+    "codename": "change_producttype",
+    "name": "Can change product type",
+    "content_type": 8
+  },
+  "model": "auth.permission",
+  "pk": 23
+},
+{
+  "fields": {
+    "codename": "delete_producttype",
+    "name": "Can delete product type",
+    "content_type": 8
+  },
+  "model": "auth.permission",
+  "pk": 24
+},
+{
+  "fields": {
+    "codename": "add_product",
+    "name": "Can add product",
+    "content_type": 9
+  },
+  "model": "auth.permission",
+  "pk": 25
+},
+{
+  "fields": {
+    "codename": "change_product",
+    "name": "Can change product",
+    "content_type": 9
+  },
+  "model": "auth.permission",
+  "pk": 26
+},
+{
+  "fields": {
+    "codename": "delete_product",
+    "name": "Can delete product",
+    "content_type": 9
+  },
+  "model": "auth.permission",
+  "pk": 27
+},
+{
+  "fields": {
+    "codename": "add_supplierproduct",
+    "name": "Can add supplier product",
+    "content_type": 10
+  },
+  "model": "auth.permission",
+  "pk": 28
+},
+{
+  "fields": {
+    "codename": "change_supplierproduct",
+    "name": "Can change supplier product",
+    "content_type": 10
+  },
+  "model": "auth.permission",
+  "pk": 29
+},
+{
+  "fields": {
+    "codename": "delete_supplierproduct",
+    "name": "Can delete supplier product",
+    "content_type": 10
+  },
+  "model": "auth.permission",
+  "pk": 30
+},
+{
+  "fields": {
+    "codename": "add_service",
+    "name": "Can add service",
+    "content_type": 11
+  },
+  "model": "auth.permission",
+  "pk": 31
+},
+{
+  "fields": {
+    "codename": "change_service",
+    "name": "Can change service",
+    "content_type": 11
+  },
+  "model": "auth.permission",
+  "pk": 32
+},
+{
+  "fields": {
+    "codename": "delete_service",
+    "name": "Can delete service",
+    "content_type": 11
+  },
+  "model": "auth.permission",
+  "pk": 33
+},
+{
+  "fields": {
+    "codename": "add_supplierservice",
+    "name": "Can add supplier service",
+    "content_type": 12
+  },
+  "model": "auth.permission",
+  "pk": 34
+},
+{
+  "fields": {
+    "codename": "change_supplierservice",
+    "name": "Can change supplier service",
+    "content_type": 12
+  },
+  "model": "auth.permission",
+  "pk": 35
+},
+{
+  "fields": {
+    "codename": "delete_supplierservice",
+    "name": "Can delete supplier service",
+    "content_type": 12
+  },
+  "model": "auth.permission",
+  "pk": 36
+},
+{
+  "fields": {
+    "codename": "add_farmer",
+    "name": "Can add farmer",
+    "content_type": 13
+  },
+  "model": "auth.permission",
+  "pk": 37
+},
+{
+  "fields": {
+    "codename": "change_farmer",
+    "name": "Can change farmer",
+    "content_type": 13
+  },
+  "model": "auth.permission",
+  "pk": 38
+},
+{
+  "fields": {
+    "codename": "delete_farmer",
+    "name": "Can delete farmer",
+    "content_type": 13
+  },
+  "model": "auth.permission",
+  "pk": 39
+},
+{
+  "fields": {
+    "codename": "add_ussdrequest",
+    "name": "Can add ussd request",
+    "content_type": 14
+  },
+  "model": "auth.permission",
+  "pk": 40
+},
+{
+  "fields": {
+    "codename": "change_ussdrequest",
+    "name": "Can change ussd request",
+    "content_type": 14
+  },
+  "model": "auth.permission",
+  "pk": 41
+},
+{
+  "fields": {
+    "codename": "delete_ussdrequest",
+    "name": "Can delete ussd request",
+    "content_type": 14
+  },
+  "model": "auth.permission",
+  "pk": 42
+},
+{
+  "fields": {
+    "mobile_phone_number": "0703260969",
+    "name": "Joan Ndungu",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 2
+},
+{
+  "fields": {
+    "mobile_phone_number": "0703266956",
+    "name": "James Munguti",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": false,
+    "is_staff": false,
+    "last_login": null,
+    "groups": [],
+    "user_permissions": [],
+    "password": "mkemonda",
+    "date_joined": "2015-10-17T12:05:57.341Z"
+  },
+  "model": "core.user",
+  "pk": 3
+},
+{
+  "fields": {
+    "mobile_phone_number": "0734483844",
+    "name": "District Veterinary Office",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": false,
+    "is_staff": false,
+    "last_login": null,
+    "groups": [],
+    "user_permissions": [],
+    "password": "mkemonda",
+    "date_joined": "2015-10-17T12:06:39.151Z"
+  },
+  "model": "core.user",
+  "pk": 4
+},
+{
+  "fields": {
+    "mobile_phone_number": "0725167234",
+    "name": "James Ikuyu",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 5
+},
+{
+  "fields": {
+    "mobile_phone_number": "0703266967",
+    "name": "Ian Aseka",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 6
+},
+{
+  "fields": {
+    "mobile_phone_number": "0704266966",
+    "name": "Richard Ndungu",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 7
+},
+{
+  "fields": {
+    "mobile_phone_number": "0703267966",
+    "name": "Alex Guyu",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 8
+},
+{
+  "fields": {
+    "mobile_phone_number": "0703966966",
+    "name": "Augustine Muya",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 9
+},
+{
+  "fields": {
+    "mobile_phone_number": "0704666966",
+    "name": "Luke Ochieng",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 10
+},
+{
+  "fields": {
+    "mobile_phone_number": "0703296966",
+    "name": "John Kilo",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 11
+},
+{
+  "fields": {
+    "mobile_phone_number": "0703060966",
+    "name": "Sarah Mureithi",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 12
+},
+{
+  "fields": {
+    "mobile_phone_number": "0716266966",
+    "name": "Mike",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 13
+},
+{
+  "fields": {
+    "mobile_phone_number": "0757266966",
+    "name": "Walter Otungu",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 14
+},
+{
+  "fields": {
+    "mobile_phone_number": "0704766966",
+    "name": "Oscar Okech",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 15
+},
+{
+  "fields": {
+    "mobile_phone_number": "072756966",
+    "name": "Douglas Injugu",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-29T10:22:04.214Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 16
+},
+{
+  "fields": {
+    "mobile_phone_number": "0711184966",
+    "name": "Kungu",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 17
+},
+{
+  "fields": {
+    "mobile_phone_number": "0704676966",
+    "name": "Dedan Ntwiga",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 18
+},
+{
+  "fields": {
+    "mobile_phone_number": "0703266676",
+    "name": "Kevin Mwangi",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 19
+},
+{
+  "fields": {
+    "mobile_phone_number": "0703266999",
+    "name": "Geilis Ihinja",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 20
+},
+{
+  "fields": {
+    "mobile_phone_number": "0724158671",
+    "name": "Julie Kwamboka",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-29T10:24:41.426Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 21
+},
+{
+  "fields": {
+    "mobile_phone_number": "0721111265",
+    "name": "Mary Nafula",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-29T10:23:05.068Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 22
+},
+{
+  "fields": {
+    "mobile_phone_number": "0712739669",
+    "name": "Justus Matanda",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 23
+},
+{
+  "fields": {
+    "mobile_phone_number": "0703266944",
+    "name": "Olepili Ntikulu",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 24
+},
+{
+  "fields": {
+    "mobile_phone_number": "0703266991",
+    "name": "Helen Maingi",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 25
+},
+{
+  "fields": {
+    "mobile_phone_number": "0703266925",
+    "name": "Sandra Ohanya",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 26
+},
+{
+  "fields": {
+    "mobile_phone_number": "0703266981",
+    "name": "Kiki Njeri",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 27
+},
+{
+  "fields": {
+    "mobile_phone_number": "0703266499",
+    "name": "Hansen Ntwiha",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 28
+},
+{
+  "fields": {
+    "mobile_phone_number": "0703266958",
+    "name": "Jill Oukoi",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 29
+},
+{
+  "fields": {
+    "mobile_phone_number": "0703266952",
+    "name": "James Mureithi",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 30
+},
+{
+  "fields": {
+    "mobile_phone_number": "0703266943",
+    "name": "Keith Aika",
+    "pin_number": "3333",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-11-28T07:09:42.729Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$hoyThofHCSCm$uC7iSAg1gyYbP4WvjPKnSI0tgYSI38CD2OQYiruBQtA=",
+    "date_joined": "2015-11-14T11:40:10.862Z"
+  },
+  "model": "core.user",
+  "pk": 31
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (36.9665406734761461 -1.2560600911662660)",
+    "user": 3
+  },
+  "model": "core.supplier",
+  "pk": 1
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (37.0144029377893986 -1.2757154297063971)",
+    "user": 2
+  },
+  "model": "core.supplier",
+  "pk": 2
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (36.9996239383272325 -1.2740887866670381)",
+    "user": 4
+  },
+  "model": "core.supplier",
+  "pk": 3
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (36.9999637961205323 -1.2490059689125710)",
+    "user": 10
+  },
+  "model": "core.supplier",
+  "pk": 4
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (36.9884048129307814 -1.2479842974808200)",
+    "user": 9
+  },
+  "model": "core.supplier",
+  "pk": 5
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (36.9868719418791159 -1.2542136490591049)",
+    "user": 8
+  },
+  "model": "core.supplier",
+  "pk": 6
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (36.9837494267738265 -1.2614561384889891)",
+    "user": 7
+  },
+  "model": "core.supplier",
+  "pk": 7
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (36.9501284550401934 -1.2492074651758340)",
+    "user": 17
+  },
+  "model": "core.supplier",
+  "pk": 8
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (36.9521722831090997 -1.2501610247472970)",
+    "user": 6
+  },
+  "model": "core.supplier",
+  "pk": 9
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (37.0086898065147665 -1.2609396293290860)",
+    "user": 5
+  },
+  "model": "core.supplier",
+  "pk": 10
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (36.9981868011605997 -1.2703247550127861)",
+    "user": 11
+  },
+  "model": "core.supplier",
+  "pk": 11
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (36.9982378968623280 -1.2703190791079260)",
+    "user": 12
+  },
+  "model": "core.supplier",
+  "pk": 12
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (36.9981300281586911 -1.2701771814822820)",
+    "user": 13
+  },
+  "model": "core.supplier",
+  "pk": 13
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (36.9895062091679137 -1.2671121908682701)",
+    "user": 14
+  },
+  "model": "core.supplier",
+  "pk": 14
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (36.9904032225981680 -1.2676684301752501)",
+    "user": 15
+  },
+  "model": "core.supplier",
+  "pk": 15
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (36.9844307027967787 -1.2643536962146640)",
+    "user": 16
+  },
+  "model": "core.supplier",
+  "pk": 16
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (36.9856342904373676 -1.2647169549375941)",
+    "user": 18
+  },
+  "model": "core.supplier",
+  "pk": 17
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (36.9891542165560523 -1.2662494521150469)",
+    "user": 19
+  },
+  "model": "core.supplier",
+  "pk": 18
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (36.9896538189728901 -1.2665786550942579)",
+    "user": 20
+  },
+  "model": "core.supplier",
+  "pk": 19
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (36.9894494361660051 -1.2664424331768911)",
+    "user": 3
+  },
+  "model": "core.supplier",
+  "pk": 20
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (37.8808593750000000 -1.0574340820313000)",
+    "user": 22
+  },
+  "model": "core.farmer",
+  "pk": 1
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (37.0157330722629396 -1.2771390996811260)",
+    "user": 23
+  },
+  "model": "core.farmer",
+  "pk": 3
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (37.0049072382007793 -1.2735548281579561)",
+    "user": 24
+  },
+  "model": "core.farmer",
+  "pk": 4
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (37.0058523435498401 -1.2662128668447230)",
+    "user": 25
+  },
+  "model": "core.farmer",
+  "pk": 5
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (37.0070079855989533 -1.2685844684457950)",
+    "user": 26
+  },
+  "model": "core.farmer",
+  "pk": 6
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (37.0025778658358533 -1.2638673739138280)",
+    "user": 27
+  },
+  "model": "core.farmer",
+  "pk": 7
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (37.0032778185850830 -1.2625464171107570)",
+    "user": 28
+  },
+  "model": "core.farmer",
+  "pk": 8
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (37.0018294020037288 -1.2616792038296500)",
+    "user": 29
+  },
+  "model": "core.farmer",
+  "pk": 9
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (37.0026035502475921 -1.2574882736703059)",
+    "user": 21
+  },
+  "model": "core.farmer",
+  "pk": 10
+},
+{
+  "fields": {
+    "geom": "SRID=4326;POINT (36.9934852978368411 -1.2498865064059981)",
+    "user": 2
+  },
+  "model": "core.farmer",
+  "pk": 14
+},
+{
+  "fields": {
+    "product": null,
+    "product_type": null,
+    "order_type": 1,
+    "service": null,
+    "price": null,
+    "user_type": 1,
+    "session_id": "SR7AFJP0MJ7",
+    "user": null,
+    "last_step": 0,
+    "request_closed": true,
+    "quantity": null
+  },
+  "model": "core.ussdrequest",
+  "pk": 1
+},
+{
+  "fields": {
+    "product": 1,
+    "product_type": 1,
+    "order_type": 1,
+    "service": null,
+    "price": 24.0,
+    "user_type": 1,
+    "session_id": "JJFQCHV7QQ2",
+    "user": 21,
+    "last_step": 7,
+    "request_closed": true,
+    "quantity": 13.0
+  },
+  "model": "core.ussdrequest",
+  "pk": 2
+},
+{
+  "fields": {
+    "product": 1,
+    "product_type": 1,
+    "order_type": 1,
+    "service": null,
+    "price": 1.0,
+    "user_type": 1,
+    "session_id": "44T4LZQA69E",
+    "user": 21,
+    "last_step": 7,
+    "request_closed": true,
+    "quantity": 23.0
+  },
+  "model": "core.ussdrequest",
+  "pk": 3
+},
+{
+  "fields": {
+    "product": 1,
+    "product_type": 1,
+    "order_type": 1,
+    "service": null,
+    "price": 100.0,
+    "user_type": 1,
+    "session_id": "8Z29I2KNFVW",
+    "user": 21,
+    "last_step": 7,
+    "request_closed": true,
+    "quantity": 50.0
+  },
+  "model": "core.ussdrequest",
+  "pk": 4
+},
+{
+  "fields": {
+    "product": 6,
+    "product_type": 2,
+    "order_type": 1,
+    "service": null,
+    "price": 100.0,
+    "user_type": 1,
+    "session_id": "6OSXRYQ9E8N",
+    "user": 21,
+    "last_step": 7,
+    "request_closed": true,
+    "quantity": 100.0
+  },
+  "model": "core.ussdrequest",
+  "pk": 5
+},
+{
+  "fields": {
+    "product": 1,
+    "product_type": 1,
+    "order_type": 1,
+    "service": null,
+    "price": 100.0,
+    "user_type": 1,
+    "session_id": "GXAMQWIODKP",
+    "user": 21,
+    "last_step": 7,
+    "request_closed": true,
+    "quantity": 50.0
+  },
+  "model": "core.ussdrequest",
+  "pk": 6
+},
+{
+  "fields": {
+    "product": 1,
+    "product_type": 1,
+    "order_type": 1,
+    "service": null,
+    "price": 100.0,
+    "user_type": 1,
+    "session_id": "XJA1N0JBGGG",
+    "user": 21,
+    "last_step": 7,
+    "request_closed": true,
+    "quantity": 50.0
+  },
+  "model": "core.ussdrequest",
+  "pk": 7
+},
+{
+  "fields": {
+    "product": 1,
+    "product_type": 1,
+    "order_type": 1,
+    "service": null,
+    "price": null,
+    "user_type": 1,
+    "session_id": "HR01CWV0KVT",
+    "user": 21,
+    "last_step": 6,
+    "request_closed": false,
+    "quantity": 50.0
+  },
+  "model": "core.ussdrequest",
+  "pk": 8
+},
+{
+  "fields": {
+    "product": 1,
+    "product_type": 1,
+    "order_type": 1,
+    "service": null,
+    "price": null,
+    "user_type": 1,
+    "session_id": "XEV5CUX6USH",
+    "user": 21,
+    "last_step": 6,
+    "request_closed": false,
+    "quantity": 50.0
+  },
+  "model": "core.ussdrequest",
+  "pk": 9
+},
+{
+  "fields": {
+    "product": 1,
+    "product_type": 1,
+    "order_type": 1,
+    "service": null,
+    "price": 50.0,
+    "user_type": 1,
+    "session_id": "YKQFI9LZ9DF",
+    "user": 21,
+    "last_step": 7,
+    "request_closed": true,
+    "quantity": 50.0
+  },
+  "model": "core.ussdrequest",
+  "pk": 10
+},
+{
+  "fields": {
+    "product": null,
+    "product_type": null,
+    "order_type": 2,
+    "service": null,
+    "price": null,
+    "user_type": 1,
+    "session_id": "CWX2JQUHOQN",
+    "user": 21,
+    "last_step": 3,
+    "request_closed": false,
+    "quantity": null
+  },
+  "model": "core.ussdrequest",
+  "pk": 11
+},
+{
+  "fields": {
+    "product": null,
+    "product_type": null,
+    "order_type": 2,
+    "service": 2,
+    "price": null,
+    "user_type": 1,
+    "session_id": "40534T2MW3B",
+    "user": 21,
+    "last_step": 4,
+    "request_closed": true,
+    "quantity": null
+  },
+  "model": "core.ussdrequest",
+  "pk": 12
+},
+{
+  "fields": {
+    "product": null,
+    "product_type": null,
+    "order_type": 2,
+    "service": null,
+    "price": null,
+    "user_type": 1,
+    "session_id": "T5UQ4ZF11JF",
+    "user": 21,
+    "last_step": 3,
+    "request_closed": false,
+    "quantity": null
+  },
+  "model": "core.ussdrequest",
+  "pk": 13
+},
+{
+  "fields": {
+    "product": null,
+    "product_type": null,
+    "order_type": 2,
+    "service": 2,
+    "price": null,
+    "user_type": 1,
+    "session_id": "9BCQ1Z1CKEU",
+    "user": 21,
+    "last_step": 4,
+    "request_closed": true,
+    "quantity": null
+  },
+  "model": "core.ussdrequest",
+  "pk": 14
+},
+{
+  "fields": {
+    "product": null,
+    "product_type": 1,
+    "order_type": 1,
+    "service": null,
+    "price": null,
+    "user_type": 1,
+    "session_id": "XMRU9F3U8HI",
+    "user": 21,
+    "last_step": 4,
+    "request_closed": false,
+    "quantity": null
+  },
+  "model": "core.ussdrequest",
+  "pk": 15
+},
+{
+  "fields": {
+    "product": null,
+    "product_type": null,
+    "order_type": 1,
+    "service": null,
+    "price": null,
+    "user_type": 1,
+    "session_id": "5ONG9TASGAO",
+    "user": 21,
+    "last_step": 0,
+    "request_closed": false,
+    "quantity": null
+  },
+  "model": "core.ussdrequest",
+  "pk": 16
+},
+{
+  "fields": {
+    "product": 1,
+    "product_type": 1,
+    "order_type": 1,
+    "service": null,
+    "price": 20.0,
+    "user_type": 1,
+    "session_id": "YYT6R2M2XS9",
+    "user": 21,
+    "last_step": 7,
+    "request_closed": true,
+    "quantity": 20.0
+  },
+  "model": "core.ussdrequest",
+  "pk": 17
+},
+{
+  "fields": {
+    "product": 1,
+    "product_type": 1,
+    "order_type": 1,
+    "service": null,
+    "price": 50.0,
+    "user_type": 1,
+    "session_id": "YRB19G4PURW",
+    "user": 21,
+    "last_step": 7,
+    "request_closed": true,
+    "quantity": 50.0
+  },
+  "model": "core.ussdrequest",
+  "pk": 18
+},
+{
+  "fields": {
+    "product": 1,
+    "product_type": 1,
+    "order_type": 1,
+    "service": null,
+    "price": 50.0,
+    "user_type": 1,
+    "session_id": "YV950F764CZ",
+    "user": 21,
+    "last_step": 7,
+    "request_closed": true,
+    "quantity": 50.0
+  },
+  "model": "core.ussdrequest",
+  "pk": 19
+},
+{
+  "fields": {
+    "product": 1,
+    "product_type": 1,
+    "order_type": 1,
+    "service": null,
+    "price": 50.0,
+    "user_type": 1,
+    "session_id": "XOU1095ZZN1",
+    "user": 21,
+    "last_step": 7,
+    "request_closed": true,
+    "quantity": 50.0
+  },
+  "model": "core.ussdrequest",
+  "pk": 20
+},
+{
+  "fields": {
+    "product": 1,
+    "product_type": 1,
+    "order_type": 1,
+    "service": null,
+    "price": 50.0,
+    "user_type": 1,
+    "session_id": "J5SO27DGSEI",
+    "user": 21,
+    "last_step": 7,
+    "request_closed": true,
+    "quantity": 50.0
+  },
+  "model": "core.ussdrequest",
+  "pk": 21
+},
+{
+  "fields": {
+    "product": 1,
+    "product_type": 1,
+    "order_type": 1,
+    "service": null,
+    "price": 50.0,
+    "user_type": 1,
+    "session_id": "QUCJXEPDJTJ",
+    "user": 21,
+    "last_step": 7,
+    "request_closed": true,
+    "quantity": 50.0
+  },
+  "model": "core.ussdrequest",
+  "pk": 22
+},
+{
+  "fields": {
+    "product": 1,
+    "product_type": 1,
+    "order_type": 1,
+    "service": null,
+    "price": 50.0,
+    "user_type": 1,
+    "session_id": "QQ49EUZ4HGU",
+    "user": 21,
+    "last_step": 7,
+    "request_closed": true,
+    "quantity": 50.0
+  },
+  "model": "core.ussdrequest",
+  "pk": 23
+},
+{
+  "fields": {
+    "product": 1,
+    "product_type": 1,
+    "order_type": 1,
+    "service": null,
+    "price": 50.0,
+    "user_type": 1,
+    "session_id": "SLX2DEQC7SH",
+    "user": 21,
+    "last_step": 7,
+    "request_closed": true,
+    "quantity": 50.0
+  },
+  "model": "core.ussdrequest",
+  "pk": 24
+},
+{
+  "fields": {
+    "product": 1,
+    "product_type": 1,
+    "order_type": 1,
+    "service": null,
+    "price": 50.0,
+    "user_type": 1,
+    "session_id": "VZONDWVBZW2",
+    "user": 21,
+    "last_step": 7,
+    "request_closed": true,
+    "quantity": 50.0
+  },
+  "model": "core.ussdrequest",
+  "pk": 25
+},
+{
+  "fields": {
+    "product": 1,
+    "product_type": 1,
+    "order_type": 1,
+    "service": null,
+    "price": 50.0,
+    "user_type": 1,
+    "session_id": "E8YMW1N6MK1",
+    "user": 21,
+    "last_step": 7,
+    "request_closed": true,
+    "quantity": 50.0
+  },
+  "model": "core.ussdrequest",
+  "pk": 26
+},
+{
+  "fields": {
+    "product": null,
+    "product_type": null,
+    "order_type": 1,
+    "service": null,
+    "price": null,
+    "user_type": 1,
+    "session_id": "LZHOWJ1BXR8",
+    "user": 21,
+    "last_step": 2,
+    "request_closed": false,
+    "quantity": null
+  },
+  "model": "core.ussdrequest",
+  "pk": 27
+},
+{
+  "fields": {
+    "action_flag": 1,
+    "action_time": "2015-11-22T10:32:57.663Z",
+    "object_repr": "Supplier object",
+    "object_id": "1",
+    "change_message": "",
+    "user": 2,
+    "content_type": 7
+  },
+  "model": "admin.logentry",
+  "pk": 2
+},
+{
+  "fields": {
+    "action_flag": 1,
+    "action_time": "2015-11-22T10:33:41.189Z",
+    "object_repr": "Veterinary Services",
+    "object_id": "2",
+    "change_message": "",
+    "user": 2,
+    "content_type": 12
+  },
+  "model": "admin.logentry",
+  "pk": 3
+},
+{
+  "fields": {
+    "action_flag": 1,
+    "action_time": "2015-11-22T17:37:09.928Z",
+    "object_repr": "Supplier object",
+    "object_id": "2",
+    "change_message": "",
+    "user": 2,
+    "content_type": 7
+  },
+  "model": "admin.logentry",
+  "pk": 7
+},
+{
+  "fields": {
+    "action_flag": 1,
+    "action_time": "2015-11-22T17:37:41.973Z",
+    "object_repr": "Veterinary Services",
+    "object_id": "3",
+    "change_message": "",
+    "user": 2,
+    "content_type": 12
+  },
+  "model": "admin.logentry",
+  "pk": 8
+},
+{
+  "fields": {
+    "action_flag": 2,
+    "action_time": "2015-11-24T11:41:14.075Z",
+    "object_repr": "",
+    "object_id": "1",
+    "change_message": "Changed geom.",
+    "user": 2,
+    "content_type": 13
+  },
+  "model": "admin.logentry",
+  "pk": 9
+},
+{
+  "fields": {
+    "action_flag": 2,
+    "action_time": "2015-11-24T11:41:22.528Z",
+    "object_repr": "James Munguti",
+    "object_id": "1",
+    "change_message": "Changed geom.",
+    "user": 2,
+    "content_type": 7
+  },
+  "model": "admin.logentry",
+  "pk": 10
+},
+{
+  "fields": {
+    "action_flag": 2,
+    "action_time": "2015-11-24T11:42:28.106Z",
+    "object_repr": "",
+    "object_id": "2",
+    "change_message": "Changed geom.",
+    "user": 2,
+    "content_type": 7
+  },
+  "model": "admin.logentry",
+  "pk": 11
+},
+{
+  "fields": {
+    "action_flag": 2,
+    "action_time": "2015-11-24T12:40:02.458Z",
+    "object_repr": "Joan Mureithi",
+    "object_id": "2",
+    "change_message": "Changed name and pin_number.",
+    "user": 2,
+    "content_type": 6
+  },
+  "model": "admin.logentry",
+  "pk": 12
+},
+{
+  "fields": {
+    "action_flag": 1,
+    "action_time": "2015-11-28T08:37:37.791Z",
+    "object_repr": "James Ananda",
+    "object_id": "3",
+    "change_message": "",
+    "user": 2,
+    "content_type": 7
+  },
+  "model": "admin.logentry",
+  "pk": 13
+},
+{
+  "fields": {
+    "action_flag": 2,
+    "action_time": "2015-11-28T09:05:01.889Z",
+    "object_repr": "Artificial Insemination",
+    "object_id": "2",
+    "change_message": "Changed service.",
+    "user": 2,
+    "content_type": 12
+  },
+  "model": "admin.logentry",
+  "pk": 14
+},
+{
+  "fields": {
+    "action_flag": 1,
+    "action_time": "2015-11-28T11:26:15.550Z",
+    "object_repr": "Lucene",
+    "object_id": "1",
+    "change_message": "",
+    "user": 2,
+    "content_type": 10
+  },
+  "model": "admin.logentry",
+  "pk": 15
+},
+{
+  "fields": {
+    "action_flag": 2,
+    "action_time": "2015-11-28T11:44:51.998Z",
+    "object_repr": "Lucene",
+    "object_id": "1",
+    "change_message": "Changed supplier.",
+    "user": 2,
+    "content_type": 10
+  },
+  "model": "admin.logentry",
+  "pk": 16
+},
+{
+  "fields": {
+    "action_flag": 2,
+    "action_time": "2015-11-28T12:46:51.154Z",
+    "object_repr": "Julie Kwamboka",
+    "object_id": "10",
+    "change_message": "Changed user.",
+    "user": 2,
+    "content_type": 13
+  },
+  "model": "admin.logentry",
+  "pk": 17
+},
+{
+  "fields": {
+    "action_flag": 2,
+    "action_time": "2015-11-28T14:12:53.710Z",
+    "object_repr": "Dedan Ntwiga",
+    "object_id": "10",
+    "change_message": "Changed user.",
+    "user": 2,
+    "content_type": 13
+  },
+  "model": "admin.logentry",
+  "pk": 18
+},
+{
+  "fields": {
+    "action_flag": 2,
+    "action_time": "2015-11-28T14:13:23.485Z",
+    "object_repr": "Julie Kwamboka",
+    "object_id": "14",
+    "change_message": "Changed user.",
+    "user": 2,
+    "content_type": 13
+  },
+  "model": "admin.logentry",
+  "pk": 19
+},
+{
+  "fields": {
+    "action_flag": 2,
+    "action_time": "2015-11-28T14:14:28.908Z",
+    "object_repr": "Mary Nafula",
+    "object_id": "1",
+    "change_message": "Changed user.",
+    "user": 2,
+    "content_type": 13
+  },
+  "model": "admin.logentry",
+  "pk": 20
+},
+{
+  "fields": {
+    "action_flag": 2,
+    "action_time": "2015-11-28T14:14:55.739Z",
+    "object_repr": "Joan Ndungu",
+    "object_id": "14",
+    "change_message": "Changed user.",
+    "user": 2,
+    "content_type": 13
+  },
+  "model": "admin.logentry",
+  "pk": 21
+},
+{
+  "fields": {
+    "action_flag": 2,
+    "action_time": "2015-11-28T14:15:05.619Z",
+    "object_repr": "Julie Kwamboka",
+    "object_id": "10",
+    "change_message": "Changed user.",
+    "user": 2,
+    "content_type": 13
+  },
+  "model": "admin.logentry",
+  "pk": 22
+}
+]
